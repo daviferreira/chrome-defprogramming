@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "defprogramming",
+  "description": "This extension shows a random programming quote on new tabs.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://www.defprogramming.com/"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "defprogramming.html"
+  }
+}
